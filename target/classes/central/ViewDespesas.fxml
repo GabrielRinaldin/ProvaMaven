@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="403.0" prefWidth="708.0" style="-fx-background-color: linear-gradient(to right bottom, #ffffff, #b9b9b9, #777777, #3b3b3b, #000000);" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DespesaController">
+   <children>
+      <Button fx:id="btn_adicionar_despesas" layoutX="16.0" layoutY="336.0" mnemonicParsing="false" onAction="#inserirDespesas" prefHeight="34.0" prefWidth="88.0" style="-fx-background-color: #0598ff;" text="ADICIONAR" textFill="WHITE">
+         <font>
+            <Font name="Bell MT" size="12.0" />
+         </font></Button>
+      <Button fx:id="btn_pesquisar_despesas" layoutX="446.0" layoutY="109.0" mnemonicParsing="false" onAction="#buscarDespesas" prefHeight="26.0" prefWidth="88.0" style="-fx-background-color: #0598ff;" text="PESQUISAR" textFill="WHITE">
+         <font>
+            <Font name="Bell MT" size="12.0" />
+         </font></Button>
+      <Button fx:id="btn_excluir_despesas" layoutX="200.0" layoutY="336.0" mnemonicParsing="false" onAction="#excluiDespesa" prefHeight="34.0" prefWidth="88.0" style="-fx-background-color: #0598ff;" text="EXCLUIR" textFill="WHITE">
+         <font>
+            <Font name="Bell MT Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="btn_alterar_despesas" layoutX="108.0" layoutY="336.0" mnemonicParsing="false" onAction="#AlterarDespesa" prefHeight="34.0" prefWidth="88.0" style="-fx-background-color: #0598ff;" text="ALTERAR" textFill="WHITE">
+         <font>
+            <Font name="Bell MT" size="12.0" />
+         </font></Button>
+      <TextArea fx:id="ta_mostra_despesas" layoutX="299.0" layoutY="150.0" prefHeight="212.0" prefWidth="402.0" style="-fx-background-color: white;" />
+      <TextField fx:id="tx_valor_despesas" layoutX="51.0" layoutY="128.0" promptText="VALOR" />
+      <TextField fx:id="tx_tipo_despesa_despesas" layoutX="51.0" layoutY="166.0" promptText="TIPO DA DESPESA" />
+      <Button fx:id="btn_sair_despesas" layoutX="653.0" layoutY="370.0" mnemonicParsing="false" onAction="#BTNSairsistema" style="-fx-background-color: red;" text="SAIR" textFill="WHITE" />
+      <TextArea fx:id="ta_descricao_despesa" layoutX="51.0" layoutY="242.0" prefHeight="75.0" prefWidth="200.0" promptText="DESCRIÇÃO DA DESPESA" />
+      <Text layoutX="126.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DESPESAS" textAlignment="CENTER" underline="true" wrappingWidth="200.00000000000006">
+         <font>
+            <Font name="Bell MT Bold" size="30.0" />
+         </font>
+      </Text>
+      <DatePicker fx:id="dp_despesa" layoutX="52.0" layoutY="204.0" prefHeight="25.0" prefWidth="149.0" promptText="DATA" />
+      <TextField fx:id="tx_busca_id_despesa" layoutX="299.0" layoutY="109.0" prefHeight="26.0" prefWidth="126.0" />
+      <Label fx:id="label_label" layoutX="24.0" layoutY="92.0" />
+      <ImageView fitHeight="110.0" fitWidth="156.0" layoutX="10.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../img/despesa.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

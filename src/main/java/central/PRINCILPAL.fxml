@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="564.0" prefWidth="900.0" style="-fx-background-color: linear-gradient(to right top, #ffffff, #b9b9b9, #777777, #3b3b3b, #000000);;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.PrincipalController">
+   <children>
+      <BorderPane prefHeight="564.0" prefWidth="94.0" style="-fx-background-color: linear-gradient(to right, #aaaaaa, #bfbfbf, #d4d4d4, #e9e9e9, #ffffff);;">
+         <effect>
+            <DropShadow color="#3f75ab" height="251.02" radius="126.005" width="255.0" />
+         </effect>
+         <top>
+            <AnchorPane prefHeight="564.0" prefWidth="105.0" BorderPane.alignment="CENTER" />
+         </top>
+      </BorderPane>
+      <ImageView fitHeight="77.0" fitWidth="77.0" layoutX="8.0" layoutY="314.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Limpness/img/funcionario.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="9.0" layoutY="321.0" mnemonicParsing="false" onAction="#linkfuncionario" opacity="0.0" prefHeight="77.0" prefWidth="77.0" textFill="WHITE">
+         <font>
+            <Font name="Algerian" size="14.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="77.0" fitWidth="101.0" layoutX="9.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="814.0">
+         <image>
+            <Image url="@../../../../../Limpness/img/home.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="9.0" layoutY="9.0" mnemonicParsing="false" opacity="0.0" prefHeight="77.0" prefWidth="77.0" textFill="WHITE">
+         <font>
+            <Font name="Algerian" size="16.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="77.0" fitWidth="77.0" layoutX="8.0" layoutY="79.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Limpness/img/cliente.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="77.0" fitWidth="77.0" layoutX="8.0" layoutY="158.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Limpness/img/clientejuridico.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="77.0" fitWidth="77.0" layoutX="12.0" layoutY="235.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Limpness/img/orcamento.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="77.0" fitWidth="77.0" layoutX="8.0" layoutY="391.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Limpness/img/equipamento.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="77.0" fitWidth="77.0" layoutX="8.0" layoutY="471.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Limpness/img/despesa.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="9.0" layoutY="88.0" mnemonicParsing="false" onAction="#linkclientef" opacity="0.0" prefHeight="77.0" prefWidth="77.0" textFill="WHITE">
+         <font>
+            <Font name="Algerian" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="9.0" layoutY="167.0" mnemonicParsing="false" onAction="#linkclientej" opacity="0.0" prefHeight="77.0" prefWidth="77.0" textFill="WHITE">
+         <font>
+            <Font name="Algerian" size="10.0" />
+         </font>
+      </Button>
+      <Button layoutX="12.0" layoutY="240.0" mnemonicParsing="false" onAction="#linkorcamento" opacity="0.0" prefHeight="77.0" prefWidth="77.0" textFill="WHITE">
+         <font>
+            <Font name="Algerian" size="14.0" />
+         </font>
+      </Button>
+      <Button layoutX="9.0" layoutY="478.0" mnemonicParsing="false" onAction="#linkdespesa" opacity="0.0" prefHeight="77.0" prefWidth="77.0" textFill="WHITE">
+         <font>
+            <Font name="Algerian" size="12.0" />
+         </font>
+      </Button>
+      <Button layoutX="9.0" layoutY="400.0" mnemonicParsing="false" onAction="#linkequipamento" opacity="0.0" prefHeight="77.0" prefWidth="77.0" textFill="WHITE">
+         <font>
+            <Font name="Algerian" size="14.0" />
+         </font>
+      </Button>
+      <Text fill="WHITE" layoutX="271.0" layoutY="114.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HISTORIA DA EMPRESA" textAlignment="CENTER" underline="true" wrappingWidth="387.7669219970703">
+         <font>
+            <Font name="Bell MT" size="31.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="465.0" layoutY="196.0" strokeType="OUTSIDE" strokeWidth="0.0" text="A LIMPNESS É UMA STARTUP CRIADA EM CURITIBA COM ÍNICIO DE OPERAÇÃO EM 2020, USAMOS A TECNOLOGIA PARA FACILITAR A VIDA DE PESSOAS QUE QUEREM UM SERVIÇO DE QUALIDADE EM APENAS ALGUNS CLICKS, ASSIM A LIMPEZA SERÁ RESOLVIDA ATRAVÉS DA NOSSA PLATAFORMA." textAlignment="JUSTIFY" wrappingWidth="396.0">
+         <font>
+            <Font name="Bell MT Bold" size="20.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="173.0" fitWidth="321.0" layoutX="129.0" layoutY="211.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../Limpness/img/LIMPNESS.jpg" />
+         </image>
+         <effect>
+            <DropShadow blurType="TWO_PASS_BOX" color="#7e92ff" height="14.33" radius="6.85" width="15.07" />
+         </effect>
+      </ImageView>
+   </children>
+</AnchorPane>

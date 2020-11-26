@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="318.0" prefWidth="359.0" style="-fx-background-color: linear-gradient(to right bottom, #ffffff, #b9b9b9, #777777, #3b3b3b, #000000);" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CadastroFunController">
+   <children>
+      <Button fx:id="btn_adicionar" layoutX="75.0" layoutY="230.0" mnemonicParsing="false" onAction="#inserirFuncionario" prefHeight="34.0" prefWidth="88.0" style="-fx-background-color: #0598ff;" text="ADICIONAR" textFill="WHITE">
+         <font>
+            <Font name="Bell MT Bold" size="12.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_limpa" layoutX="171.0" layoutY="230.0" mnemonicParsing="false" onAction="#limpaCampos" prefHeight="34.0" prefWidth="88.0" style="-fx-background-color: #0598ff;" text="LIMPAR" textFill="WHITE">
+         <font>
+            <Font name="Bell MT" size="12.0" />
+         </font>
+      </Button>
+      <TextField fx:id="tx_email_fun" layoutX="92.0" layoutY="89.0" promptText="E-MAIL" />
+      <TextField fx:id="tx_cpf_fun" layoutX="92.0" layoutY="131.0" promptText="RF" />
+      <TextField fx:id="tx_cep_fun" layoutX="92.0" layoutY="173.0" promptText="SENHA" />
+      <Button fx:id="btn_sair_funcionario" layoutX="291.0" layoutY="287.0" mnemonicParsing="false" onAction="#BTNSairsistema" style="-fx-background-color: red;" text="SAIR" textFill="WHITE" />
+      <Label fx:id="labelLabelID" layoutX="82.0" layoutY="44.0" text="ID" visible="false" />
+      <Label fx:id="labelID" layoutX="119.0" layoutY="44.0" prefHeight="18.0" prefWidth="12.0" visible="false" />
+      <Text layoutX="71.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cadastro Funcionario" underline="true">
+         <font>
+            <Font name="Bell MT Bold" size="30.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="63.0" fitWidth="79.0" layoutX="4.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../img/funcionario.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
